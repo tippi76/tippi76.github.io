@@ -1,0 +1,82 @@
+# Site settings
+title: 'Salony Gupta'
+description: 'Lorem ipsum dolor sit amet'
+keyword: 'Writer,Traveler,Biker,Machine Learning,Python,Data Science,Django,Creative Writing'
+url: 'http://tippi76.github.io' # your host
+
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
+
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+
+# Footer
+footer:
+  since: 2017
+
+# Author
+author: 'Salony Gupta'
+nickname: 'Tippi'
+bio: 'Lorem Ipsum'
+avatar: '/assets/img/profile.png'
+
+# Search
+search: true
+
+# Night mode
+nightMode: false
+
+# Comments
+comments:
+  disqus: false
+  disqus_url: '#'
+
+# MathJax
+mathjax: true
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'food'
+
+# SNS settings
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  email: 'salony.edcellpup@gmail.com'
+  linkedin: 'https://www.linkedin.com/in/salony-gupta/'
+  twitter: '#'
+  facebook: '#'
+  instagram: '#'
+  github: '//github.com/tippi76'
+
+# Tags
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM  
+  parse_block_html: true
+
+# RSS
+RSS: false
+
+# Permalink
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
