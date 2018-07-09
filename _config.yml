@@ -1,6 +1,6 @@
 # Site settings
 title: 'Salony Gupta'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Data Science Enthusiast|Writer|Traveler'
 keyword: 'Writer,Traveler,Biker,Machine Learning,Python,Data Science,Django,Creative Writing'
 url: 'http://tippi76.github.io' # your host
 
@@ -38,7 +38,7 @@ mathjax: true
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+social-share-items: ['facebook', 'linkedin', 'twitter']
 
 # theme color
 theme-color: 'default'  # pink or default
@@ -69,7 +69,7 @@ exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'R
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM  
+  input: GFM
   parse_block_html: true
 
 # RSS
