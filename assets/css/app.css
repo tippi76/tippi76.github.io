@@ -791,7 +791,7 @@ a {
 
 .night-mode {
   background-color: #282C33; }
-  .night-mode .g-banner {
+  .night-mode .g-banner .g-header .headerDown {
     color: #C8CDD3; }
     .night-mode .g-banner .header-img {
       -webkit-filter: brightness(0.5); }
