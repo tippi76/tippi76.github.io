@@ -8,7 +8,7 @@ $(document).ready(function() {
       lightningTimer,
       lightningAlpha,
       rainArr = [50],
-      rainSpeed = 4;
+      rainSpeed = 4; // change value to increse/decrese rain speed 
 
   // initialize
   function init() {
@@ -41,7 +41,7 @@ $(document).ready(function() {
     for (var j = 0; j < 500; j++) {
       rainArr[j].x = Math.floor((Math.random() * 820) - 9);
       rainArr[j].y = Math.floor((Math.random() * 520) - 9);
-      rainArr[j].z = Math.floor((Math.random() * 2) + 1);
+      rainArr[j].z = Math.floor((Math.random() * 3) + 1); // change here to increse width of rain-drops
       rainArr[j].w = Math.floor((Math.random() * 3) + 2);
     }
   }
@@ -61,7 +61,7 @@ $(document).ready(function() {
     ctx.fillRect(0,0,w,h);
 
     sidewalk();
-    road();
+
     lamp();
     rain();
 
@@ -144,7 +144,7 @@ $(document).ready(function() {
       grd.addColorStop(0.2, 'rgba(100, 150, 150, 0.1)');
       grd.addColorStop(1, 'rgba(100, 140, 140, .08)');
       ctx.fillStyle = grd;
-      ctx.fillRect(rainArr[i].x, rainArr[i].y, rainArr[i].z, 4);
+      ctx.fillRect(rainArr[i].x, rainArr[i].y, rainArr[i].z, 20); // change 20 to increse height of raindrops
     }
   }
 

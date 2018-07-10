@@ -47,7 +47,7 @@ theme-color: 'default'  # pink or default
 postPatterns: 'food'
 
 # SNS settings
-# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+# url: email, twitter, instagram, github, facebook, dribble, medium, linkedin
 sns:
   email: 'salony.edcellpup@gmail.com'
   linkedin: 'https://www.linkedin.com/in/salony-gupta/'
